@@ -1,38 +1,26 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaLaptopCode, FaShoppingCart, FaClipboardList, FaBusinessTime, FaTshirt } from 'react-icons/fa';
+import { FaLaptopCode, FaClipboardList, FaBusinessTime } from 'react-icons/fa';
 import '../style/Project.css';
 
 const projects = [
   {
-    title: "Dental Care Website",
-    description: "A modern, responsive website for dental care services.",
-    tech: "HTML, CSS, JavaScript, Bootstrap, React.js",
+    title: "Dental Clinic Management System",
+    description: "Developed a responsive dental care web application that allows users to browse services, schedule appointments, and access clinic information.",
+    tech: "React.js, Node.js, Express.js, MongoDB",
     icon: <FaLaptopCode />,
   },
   {
-    title: "KitKat Software Technologies Website",
-    description: "Enhanced platform functionality to improve user experience.",
-    tech: "HTML, CSS, JavaScript, React.js",
-    icon: <FaBusinessTime />,
-  },
-  {
     title: "Product Service Tracking Application",
-    description: "A system to streamline service management and optimize order processing.",
-    tech: "HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB",
+    description: "Built a full-stack product tracking application to streamline service workflows and manage product lifecycles, including real-time tracking and customer communication.",
+    tech: "React.js, Node.js, Express.js, MongoDB",
     icon: <FaClipboardList />,
   },
   {
-    title: "Multi-Vendor E-Commerce Website",
-    description: "Developed a complete e-commerce platform with stock management.",
-    tech: "HTML, CSS, JavaScript, React.js, Node.js, MongoDB",
-    icon: <FaShoppingCart />,
-  },
-  {
-    title: "Fashion Flair (Independent Project)",
-    description: "An interactive online shopping platform with user authentication.",
-    tech: "HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, Express.js, MongoDB",
-    icon: <FaTshirt />,
+    title: "CRM Web Application",
+    description: "Designed and developed a CRM system to manage leads, customer data, and sales activities with reporting tools and performance dashboards.",
+    tech: "React.js, Redux, Node.js, Express.js, MongoDB",
+    icon: <FaBusinessTime />,
   }
 ];
 
