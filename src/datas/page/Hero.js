@@ -55,7 +55,7 @@ const Hero = () => {
               <p>Years of Experience</p>
             </div>
             <div>
-              <h3>5+</h3>
+              <h3>3+</h3>
               <p>Projects</p>
             </div>
             <div>
@@ -66,7 +66,7 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="button-group">
-            <a href="/SivaResume.pdf" download="SivaResume.pdf">
+            <a href="/Siva_Resume_.pdf" download="Siva_Resume_.pdf">
               <button className="cta-button">Download Resume</button>
             </a>
             <a href="mailto:sivakumar0710k@gmail.com">
