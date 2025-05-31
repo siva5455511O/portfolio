@@ -5,9 +5,9 @@ import '../style/Project.css';
 
 const projects = [
   {
-    title: "Dental Clinic Management System",
+    title: "Dental Clinic Website",
     description: "Developed a responsive dental care web application that allows users to browse services, schedule appointments, and access clinic information.",
-    tech: "React.js, Node.js, Express.js, MongoDB",
+    tech: "HTML,CSS,React.js,Bootsrap",
     icon: <FaLaptopCode />,
   },
   {

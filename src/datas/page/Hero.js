@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import siva from "../../assests/sivapic.jpg"; 
+import siva from "../../assests/WhatsApp Image 2025-05-31 at 11.15.10_a9e56635.jpg"; 
 import "../style/Hero.css";
 
 const Hero = () => {
@@ -66,7 +66,7 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="button-group">
-            <a href="/Siva_Resume_.pdf" download="Siva_Resume_.pdf">
+            <a href="/SIVA_Resume.pdf" download="SIVA_Resume.pdf">
               <button className="cta-button">Download Resume</button>
             </a>
             <a href="mailto:sivakumar0710k@gmail.com">
